@@ -19,5 +19,8 @@
   "homepage": "https://github.com/Dragontalker/build-my-own-framework#readme",
   "devDependencies": {
     "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "json-server": "^0.16.3"
   }
 }
