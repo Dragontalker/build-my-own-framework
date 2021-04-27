@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:parcel": "parcel index.html",
+    "start:json": "json-server -w db.json"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
     "typescript": "^4.2.4"
   },
   "dependencies": {
+    "axios": "^0.21.1",
     "json-server": "^0.16.3"
   }
 }
